@@ -18,7 +18,7 @@ By the end of this lab, you will be able to:
 ## Part 0: Setup
 
 1. Create a new C# **console project**, using **".Net"** (not ".Net Framework"). Use **.NET version 8** or higher.
-2. In your project directory (where your `.csproj` file is located), create a text file named **`students.csv`**.
+2. In your project directory (under bin->debug->.net8.0), create a text file named **`students.csv`**.
 3. Add the following content to `students.csv`:
 
 ```
