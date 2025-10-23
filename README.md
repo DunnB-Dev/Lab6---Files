@@ -330,22 +330,3 @@ Submit your zipped file to the dropbox.
 
 **If D2L rejects your submission**, you can delete the folders **"obj"** and **"bin"**. They are unnecessary.
 
----
-
-## Summary of File I/O Methods Used
-
-In this lab, you practiced:
-
-| Method | Purpose | Example |
-|--------|---------|---------|
-| `File.ReadAllLines()` | Read entire file into string array | `string[] lines = File.ReadAllLines("file.csv");` |
-| `File.AppendAllText()` | Add text to end of file | `File.AppendAllText("file.csv", "\nNew line");` |
-| `File.Copy()` | Create a copy of a file | `File.Copy("source.csv", "backup.csv", true);` |
-| `StreamWriter` | Write formatted text to files | `using (StreamWriter writer = new StreamWriter("file.txt"))` |
-| `.Split(',')` | Parse CSV data | `string[] parts = line.Split(',');` |
-
-These file I/O skills are essential for creating programs that save and load data!
-
----
-
-*Adapted from ETSU CSCI 1250 curriculum*
